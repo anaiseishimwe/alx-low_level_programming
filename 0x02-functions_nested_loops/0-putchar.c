@@ -1,21 +1,18 @@
 #include "main.h"
-	/**
-	 * main - print _putchar
-	 * is written by mbah
-	 * Return: 0
-	 */
+/**
+ * main - Prints _putcha
+ * Return: 0 always
+ */
+int main(void)
+{
+int n = 0;
+char y[] = "_putchar";
 
-
-	int main(void)
-	{
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
-	}
+while (n <= 7)
+{
+_putchar(y[n]);
+n++;
+}
+_putchar('\n');
+return (0);
+}
