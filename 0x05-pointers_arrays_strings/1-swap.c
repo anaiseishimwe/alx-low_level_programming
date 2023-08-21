@@ -4,9 +4,8 @@
  * @a: first integer
  * @b: second integer
  */
-void swap_int(int *a, int *b);
-{
-	 int c;
+void swap_int(int *a, int *b){
+	 int(*c);
 	c = b;
 	b = a;
 	a = c;
