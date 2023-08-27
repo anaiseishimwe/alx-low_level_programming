@@ -18,7 +18,6 @@ char *leet(char *str)
 			if (str[i] == leetspeak[j])
 			{
 				str[i] = leetreplace[j];
-				break;
 			}
 		}
 	}
