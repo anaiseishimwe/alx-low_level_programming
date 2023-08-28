@@ -5,7 +5,7 @@
  * @c: input
  * Return: Always 0 (Success)
  */
-char *_strchr(char *s, char c);
+char *_strchr(char *s, char c)
 {
 	int a = 0;
 
@@ -14,4 +14,5 @@ char *_strchr(char *s, char c);
 		if (s[a] == c)
 			return (&s[a]);
 	}
+	return (0);
 }
